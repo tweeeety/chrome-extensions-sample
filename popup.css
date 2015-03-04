@@ -1,0 +1,74 @@
+/*
+ * common 
+ */
+div {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  margin:0;
+  /*background-color: #ff0000;*/
+  max-width: 600px;
+}
+
+/*
+ * header 
+ */
+.header {
+  height: 18px;
+}
+.header>div {
+  font-size: 1.5em;
+  color: #696969;
+  line-height: 18px;
+}
+.header-left {
+  float: left;
+  /*width: 100px;*/
+}
+.header-right {
+  text-align: right;
+  /*min-width: 100px;*/
+  padding-right:5px;
+}
+.plus, .done {
+  display: inline-block;
+  cursor: pointer;
+  width: 20px;
+}
+
+/*
+ * content 
+ */
+.content {
+  /*width: 200px;*/
+}
+.content-ok {
+  /*width: 200px;*/
+  text-align: right;
+}
+.content-input {
+  float: left;
+  padding: 2px;
+}
+.content-ok>span {
+  background-color: #4169e1;
+  display: inline-block;
+  padding: 2px;
+  font-size: 1.5em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/*
+ * footer 
+ */
+.footer {
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+}
+.footer > span {
+  color: #696969;
+  line-height:1.4em;
+}
